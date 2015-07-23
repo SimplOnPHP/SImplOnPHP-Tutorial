@@ -1,0 +1,16 @@
+{
+  "name": "simplon/simplonphp-tutorial",
+  "require": {
+    "php": ">=5.5",
+    "simplon/simplonphp": "dev-dev"
+  },
+  "autoload": {
+    "psr-4": { "": "src/" }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/SimplOnPHP/SimplOnPHP"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "80a9c2adf028485e3cbcb9cd5d425a2d",
+    "packages": [
+        {
+            "name": "electrolinux/phpquery",
+            "version": "0.9.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/electrolinux/phpquery.git",
+                "reference": "6cb8afcfe8cd4ce45f2f8c27d561383037c27a3a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/electrolinux/phpquery/zipball/6cb8afcfe8cd4ce45f2f8c27d561383037c27a3a",
+                "reference": "6cb8afcfe8cd4ce45f2f8c27d561383037c27a3a",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "phpQuery/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tobiasz Cudnik",
+                    "email": "tobiasz.cudnik@gmail.com",
+                    "homepage": "https://github.com/TobiaszCudnik",
+                    "role": "Developer"
+                },
+                {
+                    "name": "didier Belot",
+                    "role": "Packager"
+                }
+            ],
+            "description": "phpQuery is a server-side, chainable, CSS3 selector driven Document Object Model (DOM) API based on jQuery JavaScript Library",
+            "homepage": "http://code.google.com/p/phpquery/",
+            "time": "2013-03-21 12:39:33"
+        },
+        {
+            "name": "simplon/simplonphp",
+            "version": "dev-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SimplOnPHP/SimplOnPHP.git",
+                "reference": "ed744c67adbb595379e227156d07591e5f3eab4a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SimplOnPHP/SimplOnPHP/zipball/ed744c67adbb595379e227156d07591e5f3eab4a",
+                "reference": "ed744c67adbb595379e227156d07591e5f3eab4a",
+                "shasum": ""
+            },
+            "require": {
+                "electrolinux/phpquery": "0.9.6",
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SimplOn\\": "src/SimplOn/"
+                }
+            },
+            "license": [
+                "GPL v3"
+            ],
+            "description": "The SimplOn PHP Framework",
+            "homepage": "http://simplonphp.com",
+            "keywords": [
+                "framework"
+            ],
+            "support": {
+                "source": "https://github.com/SimplOnPHP/SimplOnPHP/tree/dev",
+                "issues": "https://github.com/SimplOnPHP/SimplOnPHP/issues"
+            },
+            "time": "2015-07-23 05:52:56"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "simplon/simplonphp": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.5"
+    },
+    "platform-dev": []
+}

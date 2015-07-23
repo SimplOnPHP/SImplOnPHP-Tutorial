@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "80a9c2adf028485e3cbcb9cd5d425a2d",
+    "hash": "aef6f1a33a28c561d5753684209bc09a",
     "packages": [
         {
             "name": "electrolinux/phpquery",
@@ -47,17 +47,17 @@
             "time": "2013-03-21 12:39:33"
         },
         {
-            "name": "simplon/simplonphp",
-            "version": "dev-dev",
+            "name": "simplonphp/simplonphp",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SimplOnPHP/SimplOnPHP.git",
-                "reference": "ed744c67adbb595379e227156d07591e5f3eab4a"
+                "reference": "23d3aa520067bbe96a14228fb276bbc37486bdf7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SimplOnPHP/SimplOnPHP/zipball/ed744c67adbb595379e227156d07591e5f3eab4a",
-                "reference": "ed744c67adbb595379e227156d07591e5f3eab4a",
+                "url": "https://api.github.com/repos/SimplOnPHP/SimplOnPHP/zipball/23d3aa520067bbe96a14228fb276bbc37486bdf7",
+                "reference": "23d3aa520067bbe96a14228fb276bbc37486bdf7",
                 "shasum": ""
             },
             "require": {
@@ -70,6 +70,7 @@
                     "SimplOn\\": "src/SimplOn/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL v3"
             ],
@@ -78,18 +79,14 @@
             "keywords": [
                 "framework"
             ],
-            "support": {
-                "source": "https://github.com/SimplOnPHP/SimplOnPHP/tree/dev",
-                "issues": "https://github.com/SimplOnPHP/SimplOnPHP/issues"
-            },
-            "time": "2015-07-23 05:52:56"
+            "time": "2015-07-23 06:28:28"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "simplon/simplonphp": 20
+        "simplonphp/simplonphp": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

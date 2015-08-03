@@ -1,0 +1,10 @@
+web:
+  build: .
+  ports:
+   - "80:80"
+  volumes:
+   - .:/usr/src/myapp
+  links:
+   - mysql
+mysql:
+  image: mysql

@@ -1,14 +1,14 @@
 <?php
 require __DIR__ . '/../vendor/autoload.php';
-$simplon_root = __DIR__ . '/../vendor/simplon/simplonphp/src/SimplOn';
+$simplon_root = __DIR__ . '/../vendor/simplonphp/simplonphp/src/SimplOn';
 
 SimplOn\Main::run(array(
     'DEFAULT_ELEMENT' => '\Tutorial\Elements\Student',
     'DEV_MODE' => true,
     'DATA_STORAGE' => new SimplOn\DataStorages\MySql(
-        'localhost',
-        'tutorial',
-        'root',
+        getenv('IP'),
+        'c9',
+        getenv('C9_USER'),
         null),
     ////////////////////////////////////////
     'LOCAL_ROOT' => __DIR__,

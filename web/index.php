@@ -12,7 +12,7 @@ SimplOn\Main::run(array(
         null),
     ////////////////////////////////////////
     'LOCAL_ROOT' => __DIR__,
-    'REMOTE_ROOT' => dirname($_SERVER['PHP_SELF']),
+    'REMOTE_ROOT' => '.',
 
     'SimplOn_PATH' => realpath($simplon_root),
     'MASTER_TEMPLATE' => realpath($simplon_root . '/Renderers/Html5.html'),

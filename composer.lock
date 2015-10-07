@@ -4,7 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "aef6f1a33a28c561d5753684209bc09a",
+    "hash": "e0ea36f7ea2aafa4f6cc71d75253ce74",
+    "content-hash": "dd8d52da2e1362590d184403d537dbed",
     "packages": [
         {
             "name": "electrolinux/phpquery",
@@ -48,16 +49,16 @@
         },
         {
             "name": "simplonphp/simplonphp",
-            "version": "dev-master",
+            "version": "dev-dev",
             "source": {
                 "type": "git",
-                "url": "https://github.com/SimplOnPHP/SimplOnPHP.git",
-                "reference": "23d3aa520067bbe96a14228fb276bbc37486bdf7"
+                "url": "https://github.com/SimplOnPHP/simplon-php.git",
+                "reference": "b9b2e0531645a108aeca29aa0608bc5f3c2b9376"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SimplOnPHP/SimplOnPHP/zipball/23d3aa520067bbe96a14228fb276bbc37486bdf7",
-                "reference": "23d3aa520067bbe96a14228fb276bbc37486bdf7",
+                "url": "https://api.github.com/repos/SimplOnPHP/simplon-php/zipball/b9b2e0531645a108aeca29aa0608bc5f3c2b9376",
+                "reference": "b9b2e0531645a108aeca29aa0608bc5f3c2b9376",
                 "shasum": ""
             },
             "require": {
@@ -79,7 +80,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2015-07-23 06:28:28"
+            "time": "2015-10-07 16:28:49"
         }
     ],
     "packages-dev": [],
